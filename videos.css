@@ -1,0 +1,118 @@
+.bgcolor.scrolled{
+    background-color: rgba(0, 0, 0, 0.692);
+    transition: 1s;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* margin: auto; */
+    padding: 20px 50px;
+    z-index: 2000;
+      
+}
+nav .logo a{
+    
+    text-decoration: none;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+nav .log{
+    color: #ffffff;
+}
+nav .logg{
+    color: #31d493;
+}
+nav form{
+    display: flex;
+    height: 40px;
+    width: 330px;
+}
+nav form input{
+    width: 90%;
+    border-radius: 0 20px 20px 0;
+    padding: 12px;
+    /* font-size: 1.6rem ; */
+    /* border: 1px solid #d3d3d3; */
+    border: none;
+}
+nav form input:focus{
+    outline-color: rgb(168, 173, 173);
+}
+nav form button{
+    /* border:none; */
+    width: 50px;
+    border: 1px  #d3d3d3;
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 3px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    color: rgb(134, 148, 145);
+    
+}
+nav form button:focus{
+    outline-color: rgb(168, 173, 173);
+    color: rgb(106, 117, 115);
+    
+
+}
+nav ul li{
+    display: inline-block;
+    padding-top: 15px;
+    margin: 0px 10px;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    /* font-weight:500; */
+}
+#navbar a.active{
+    color: #31d493;
+    
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #31d493;
+
+}
+nav .logo{
+    text-decoration: none;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.video{
+    display: grid;
+    grid-template-columns: 400px 450px 400px;
+    text-align: center;
+    margin-top: 75px;
+    margin-left: 55px;
+    grid-row-gap: 60px;
+
+}
+.video video source{
+        width: 45%;
+        border-radius: 18px;
+}
+#titles{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: end;
+    justify-content: center;
+    align-items: center;
+}
+
+.titless{
+    font-weight: 600;
+    font-size: large;
+}

@@ -1,0 +1,19 @@
+.rightside1{
+    height: 50%;
+    width: 1000px;
+}
+.content1{
+    display: inline-block;
+    background-color: #ffffff;
+    height: 550px;
+    width: 85%;
+    margin-right: 50px;
+    margin-top: 70px;
+    position:relative;
+    transform: translate(-50%,-50%);
+    left: 850px; 
+    bottom: 483px;
+    border-radius: 2%;
+    box-shadow: 0 0 40px rgba(98, 105, 102, 0.24);
+    padding: 0px 35px;
+}

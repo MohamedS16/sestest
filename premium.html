@@ -1,0 +1,612 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="user1.css">
+    <link rel="stylesheet" href="userprem.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> 
+
+    <title>Premium User</title>
+  </head>
+  <body>
+    <div class="allcontant">
+        <header>
+            <div class="main">
+                <nav id="navbar" class="bgcolor" >
+                    <div class="logo">
+                    <a href="home.html" class="log">Thera</a>
+                    <a href="home.html" class="logg">piva</a>
+                    </div>
+                    <!-- <form class="search">
+                        <button><i class="material-symbols-outlined">search</i></button>
+                      <input type="search" placeholder="Search Video" ></form> -->
+      
+                    
+                    <ul>
+                        
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SERVICE</a></li>
+                        <li><a href="#">DOCTORS</a></li>
+                        <li><a href="medical.html">MEDICAL HISTORY</a></li>
+      
+                        <li><a href="#">ACCOUNT</a></li>
+                        <li><a class="active" href="#">LOGOUT</a></li>
+            
+                    </ul>
+                </nav>
+        
+            </div>
+        </header>
+
+
+
+  <aside>
+    
+
+
+
+
+
+  <div class="leftside">
+    
+    <div class="profile">
+      <img src="avatar7.png">
+      <h4>Omar Mostafa</h4>
+      <div class="editinfo">
+        <span class="material-symbols-outlined">
+            page_info
+            </span>
+      <a href="edit.html">See your info</a></div>
+       
+
+
+   
+    </div>
+
+
+      <!----------------------------- 1st Modal ------------------------------>
+
+<div class="modalcontainer">
+     <!-- Trigger/Open The Modal -->
+     <div class="Schedule">
+      <span class="material-symbols-outlined">chat</span>
+      <button id="myBtn">Notes</button></div>
+  
+            <!-- The Modal -->
+  <div id="myModal" class="modal">
+  
+          <!-- Modal content -->
+    <div class="modal-content">
+    <div class="modal-header">
+ 
+  <h3>How you feel right now ?</h3><!--Your Feelings Matter !-->
+  <span class="close">×</span>
+  </div>
+  <div class="modal-body">
+    
+    <!-- <p>اااااااااااااااااااااااااه</p> -->
+    <div class="messages">
+      <textarea rows="11" cols="135" name="comment" form="usrform" > Feel free to open up here... </textarea>
+
+  
+    </div>
+    <a href="#">Send</a>
+   
+    </div>
+  <!-- <div class="modal-footer">
+  <h3>Modal Footer</h3>
+  </div> -->
+  </div>
+  </div>
+   <!------------------------ 2st Modal ------------------------------------->
+
+  <!-- Trigger/Open The Modal -->
+  <div class="Schedule">
+    <span class="material-symbols-outlined">flash_on</span>
+    <button id="myBtnn">Tasks</button>
+  </div>
+
+ 
+  
+  <!-- The Modal -->
+<div id="myModall" class="modal">
+  
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3>Your Tasks </h3>
+      <span class="close">×</span>
+    </div>
+    <div class="modal-body">
+      <p>الحقونااااااااااااااااااااا
+  
+      </p>
+      
+    </div>
+    <!-- <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div> -->
+  </div>
+</div>
+
+  <!----------------------------- 3rd Modal --------------------------------------->
+
+  <!-- Trigger/Open The Modal -->
+  <div class="Schedule">
+  <span class="material-symbols-outlined">
+    date_range
+    </span>
+  <button id="myBtnnn">Schedule</button></div>
+  
+  <!-- The Modal -->
+  <div id="myModalll" class="modal">
+  
+  <!-- Modal content -->
+  <div class="modal-content">
+  <div class="modal-header">
+    <h3>Your Schedule</h3>
+
+  <span class="close">×</span>
+  </div>
+  <div class="modal-body">
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Day</th>
+      <th scope="col">Time</th>
+      <th scope="col">Type </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Sunday <br> 11/2/2023</td>
+      <td>7:00 PM</td>
+      <td>Group Therapy</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Monday <br> 6/3/2023</td>
+      <td>3:00 PM</td>
+      <td>Session</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Friday <br> 11/3/2023</td>
+      <td>1:30 PM</td>
+      <td>Event</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+  <!-- <div class="modal-footer">
+  <h3>Modal Footer</h3>
+  </div> -->
+  </div>
+  </div> 
+  <div class="allspan">
+  <span id="span" class="material-symbols-outlined">
+    waving_hand
+    </span>
+  <div class="popup2" onclick="myFunction()">Events
+    
+    <span class="popuptext" id="myPopup">Date & Time <br>  <p> Meet our host Karim Ismail at Saturday, June 25, 2023 at 8 PM </p> <a href="#">Book Now</a> </span>
+   
+  </div>
+</div>
+</div>  </div>
+</aside>
+
+<div class="rightside1">
+
+  <div class="content1">
+
+    <div class="testimonial_section layout_padding">
+
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-12">
+               <!-- <h1 class="testimonial_taital">Customers Says</h1> -->
+            </div>
+         </div>
+    <div id="my_slider" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <div class="testimonial_section_2">
+               <div class="row">
+                  <div class="col-sm-">
+                     <p class="many_text"><img src="5.jpg" alt="" style="height: 250px; width: 190px;" ></p>
+                  </div>
+                  <div class="col-sm-">
+                     <p class="many_text"><img src="2.webp" alt="" style="height: 250px; width: 190px;"></p>
+                  </div>
+                  <div class="col-sm-">
+                     <p class="many_text"><img src="1.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                  </div>
+                  <div class="col-sm-">
+                     <p class="many_text"><img src="4.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                  </div>
+               </div>
+              </div>
+         </div>
+              <div class="carousel-item ">
+                 <div class="testimonial_section_2">
+                    <div class="row">
+                       <div class="col-sm-">
+                          <p class="many_text"><img src="3.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                       </div>
+                       <div class="col-sm-">
+                          <p class="many_text"><img src="6.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                       </div>
+                       <div class="col-sm-">
+                          <p class="many_text"><img src="7.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                       </div>
+                       <div class="col-sm-">
+                          <p class="many_text"><img src="8.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                       </div>
+                      
+                    </div>
+                 </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonial_section_2">
+                   <div class="row">
+                      <div class="col-sm-">
+                         <p class="many_text"><img src="9.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                      </div>
+                      <div class="col-sm-">
+                         <p class="many_text"><img src="10.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                      </div>
+                      <div class="col-sm-">
+                         <p class="many_text"><img src="11.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                      </div>
+                      <div class="col-sm-">
+                         <p class="many_text"><img src="12.jpg" alt="" style="height: 250px; width: 190px;"></p>
+                      </div>
+                      
+                   </div>
+                </div>
+             </div>
+          </div>
+          <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+            </a>
+         </div>
+      </div>
+   </div> <hr>
+   <div class="text">
+    <p> Obsessive compulsive disorder (OCD) is a common, chronic, and long-lasting disorder in which a person has uncontrollable, reoccurring thoughts ("obsessions") and behaviors ("compulsions") that he or she feels the urge to repeat over and over.<br><br>
+        You may try to ignore or stop your obsessions, but that only increases your distress and anxiety. Ultimately, you feel driven to perform compulsive acts to try to ease your stress.
+    </p>
+
+
+
+   </div>
+
+
+
+
+
+
+
+  </div>
+</div>
+<div class="downside">
+    <div class="videos">
+      <div class="hp">
+          <!-- <p class="lock1"></p> -->
+      <h3>Mental self care ideas</h3>
+      <p class="lock1"></p></div>
+      <hr>
+      <section class="containerr" >
+        <span id="left-arrow" class="arrow">&lsaquo;</span>
+        <span id="right-arrow" class="arrow">&rsaquo;</span>
+        <div class="slider" id="slider">
+             <div class="box"><img src="15.jfif" style=" height: 100%;  width:100% ;"></div>
+             <div class="box center" ><img src="image5.jpeg"  style=" height: 100%;  width: 100%;"></div>
+             <div class="box"><img src="image6.jpeg"  style=" height: 100%;  width: 100% ;"></div>
+             <div class="box"><img src="image 2.jpeg"  style=" height: 100%;  width: 100% ;"></div>
+             <div class="box"><img src="image3.jpeg"  style=" height: 100%;  width: 100% ;"></div>
+             <div class="box"><img src="image3.jpeg"  style=" height: 100%;  width: 100% ;"></div>
+             <div class="box"><img src="image3.jpeg"  style=" height: 100%;  width: 100% ;"></div>
+             <div class="box"><img src="image3.jpeg"  style=" height: 100%;  width: 100% ;"></div>
+             <div class="box"><img src="image3.jpeg"  style=" height: 100%;  width: 100% ;"></div>
+             <div class="box"><img src="image3.jpeg"  style=" height: 100%;  width: 100% ;"></div>
+             <!-- <div class="arr">
+              <a href="#">See More</a>
+              <span class="material-symbols-outlined">
+              play_arrow</span></div> -->
+  
+  
+             <div class="dummy"> <a href="videos.html">See More</a>
+              <span class="material-symbols-outlined">
+              play_arrow</span></div>
+         </div>
+      </section>
+   </div>
+ <button id="backtotop"><span class="material-symbols-outlined"> arrow_upward </span></button>
+</div>  
+
+<footer><div class="footer-area">
+  <div class="main-footer">
+      
+      <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="single-widget pr-60">
+                      <div class="footer-logo pb-25">     
+                      
+                      <p>I must explain to you how all this mistaken idea of denoung pleure and praising pain was born and give you a coete account of the system. </p></div>
+                      <div class="footer-social">
+                          <ul class="list-group">
+                              <li ><a href=""><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                          </ul>    
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="single-widget">
+                      <h3>information</h3>
+                      <p class="lock"></p>
+                      <ul>
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2 text-center">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>About Our Shop</p></a>
+                                  </div>
+                              </div>
+                          </li>                                    
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>Top Sellers</p></a>
+                                  </div>
+                              </div>
+                          </li>                                
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>Our Blog</p></a>
+                                  </div>
+                              </div>
+                          </li> 
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>New Products</p></a>
+                                  </div>
+                              </div>
+                          </li>                                     
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>Secure Shopping</p></a>
+                                  </div>
+                              </div>
+                          </li>                               
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="single-widget">
+                      <h3>useful links</h3>
+                      <p class="lock"></p>
+                      <ul>
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>About Our Shop</p></a>
+                                  </div>
+                              </div>
+                          </li>                                    
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>Top Sellers</p></a>
+                                  </div>
+                              </div>
+                          </li>                                
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>Our Blog</p></a>
+                                  </div>
+                              </div>
+                          </li> 
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>New Products</p></a>
+                                  </div>
+                              </div>
+                          </li>                                     
+                          <li class="footer-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <div class="footer-icon"></div>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10">
+                                      <a href=""><p>Secure Shopping</p></a>
+                                  </div>
+                              </div>
+                          </li>                               
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                  <div class="single-widget">
+                      <h3>get in touch</h3>
+                      <p class="lock"></p>
+                      <p>Your address goes here, Street<br>City, Roadno 785 New York</p>
+                      <p>+880  548  986  898  87<br>+880  659  785  658  98</p>
+                      <ul>
+                          <li class="address-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <i class="fa fa-address-card"></i>
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10 single-widget-description noPadding">
+                                      <span>Primary:Lorem Ipsum Dolar Sıt</span>
+                                  </div>
+                              </div>
+                          </li>
+                          <li class="address-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <i class="fa fa-phone"></i>                                       
+                                   </div>
+                                   <div class="col-md-10 col-sm-10 col-xs-10 single-widget-description noPadding">
+                                      <span>Primary:Lorem Ipsum Dolar Sıt</span>
+                                  </div>
+                              </div>
+                              </li>
+                          <li class="address-section">
+                              <div class="row">
+                                  <div class="col-md-2 col-sm-2 col-xs-2">
+                                      <i class="fa fa-envelope"></i>                                       
+                                  </div>
+                                  <div class="col-md-10 col-sm-10 col-xs-10 single-widget-description noPadding">
+                                      <span>Primary:Lorem Ipsum Dolar Sıt</span>
+                                  </div>
+                              </div>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+      </div>
+  </div>   
+  <div class="footer-bottom text-center"></div>
+
+  <!-- Copyright -->
+  
+  <div class="Copyright" style="background-color:rgba(0, 0, 0, 0.74) ; color: aliceblue;" >
+
+  <div class="text-center p-4 ">
+   © 2021 Copyright:
+    <a class="text-reset fw-bold" href="#" style="text-decoration: none; color: aliceblue;">Therabiva.com</a>
+  </div></div>
+</div></footer>
+</div>
+
+
+    
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="jquery-3.6.4.js"></script>
+    <script src="main.js"></script>
+    <script src = "script.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/plugin.js"></script>
+
+  
+  
+   <script>
+  
+  var modal = document.getElementById('myModal');
+  var modall = document.getElementById('myModall');
+  var modalll = document.getElementById('myModalll');
+
+
+  var btn = document.getElementById("myBtn");
+  var btnn = document.getElementById("myBtnn");
+  var btnnn = document.getElementById("myBtnnn");
+
+  var span = document.getElementsByClassName("close")[0];
+  var spann = document.getElementsByClassName("close")[1];
+  var spannn = document.getElementsByClassName("close")[2];
+
+  
+  btn.onclick = function() {
+  modal.style.display = "block";
+  }
+  
+  span.onclick = function() {
+  modal.style.display = "none";
+  }
+  
+  window.onclick = function(event) {
+  if (event.target == modal) {
+      modal.style.display = "none";
+  }
+  }
+  btnn.onclick = function() {
+  modall.style.display = "block";
+  }
+  
+  spann.onclick = function() {
+  modall.style.display = "none";
+  }
+  
+  window.onclick = function(event) {
+  if (event.target == modall) {
+      modall.style.display = "none";
+  }
+  }
+  btnnn.onclick = function() {
+  modalll.style.display = "block";
+  }
+  
+  spannn.onclick = function() {
+  modalll.style.display = "none";
+  }
+  
+  window.onclick = function(event) {
+  if (event.target == modalll) {
+      modalll.style.display = "none";
+  }
+  }
+  
+
+
+  
+  </script>
+
+    
+   
+       
+</body>
+</html>
